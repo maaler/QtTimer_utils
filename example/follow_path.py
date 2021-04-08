@@ -1,8 +1,9 @@
-
+# timerutils.py should be in same folder (your macro dir) with this file
 from timerutils import *
 import time
 
-
+# Basically copy/paste code from video: https://www.youtube.com/watch?v=BweWUANsZOY
+# with minor naming changes
 def followPath(follower_name, path_name):
 
     obj   = App.ActiveDocument.getObject(follower_name)
