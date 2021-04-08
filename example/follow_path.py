@@ -3,7 +3,7 @@ from timerutils import *
 import time
 
 # Basically copy/paste code from video: https://www.youtube.com/watch?v=BweWUANsZOY
-# with minor naming changes
+# with minor naming changes and turning the function into generator
 def followPath(follower_name, path_name):
 
     obj   = App.ActiveDocument.getObject(follower_name)
